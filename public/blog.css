@@ -1,0 +1,113 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #171717;
+    color: #fff;
+  }
+
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #f5f5f5;
+  }
+
+  .header p {
+    font-size: 1.2rem;
+    color: #ddd;
+  }
+
+  /* Main content */
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .post {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(0, 59, 111, 1);
+    color: #fff;
+  }
+
+  .post h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color:#f5f5f5;
+  }
+
+  .post p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .post img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  /* Read more button */
+  .read-more {
+    text-align: right;
+  }
+
+  .read-more a {
+    background-color: #3399ff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .read-more a:hover {
+    background-color: #2288ff;
+  }
+
+  .footer strong {
+    font-weight: bold;
+    color: #f5f5f5;
+  }
+
+  /* Date and time */
+  .date-time {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #ddd;
+  }
+
+  .date-time span {
+    margin-right: 1rem;
+  }
+
+  .date-time time {
+    font-weight: bold;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: #ddd;
+    margin-top: 2rem;
+  }
+
+
